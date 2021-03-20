@@ -5,15 +5,23 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Vladyslav Prokhorchuk</Authors>
     <Description>Twitter Client</Description>
-    <PackageLicenseFile></PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/waidelotte/WDLT.Clients.Twitter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/waidelotte/WDLT.Clients.Twitter</RepositoryUrl>
     <Copyright>Copyright © Vladyslav Prokhorchuk 2021</Copyright>
     <Company>Vladyslav Prokhorchuk</Company>
+    <PackageLicenseExpression></PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="WDLT.Clients.Base" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
