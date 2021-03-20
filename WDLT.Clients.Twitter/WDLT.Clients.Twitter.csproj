@@ -8,6 +8,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/waidelotte/WDLT.Clients.Twitter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/waidelotte/WDLT.Clients.Twitter</RepositoryUrl>
+    <Copyright>Copyright © Vlad Prokhorchuk 2021</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
