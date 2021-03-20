@@ -3,23 +3,17 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Vlad Prokhorchuk</Authors>
+    <Authors>Vladyslav Prokhorchuk</Authors>
     <Description>Twitter Client</Description>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile></PackageLicenseFile>
     <PackageProjectUrl>https://github.com/waidelotte/WDLT.Clients.Twitter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/waidelotte/WDLT.Clients.Twitter</RepositoryUrl>
-    <Copyright>Copyright © Vlad Prokhorchuk 2021</Copyright>
+    <Copyright>Copyright © Vladyslav Prokhorchuk 2021</Copyright>
+    <Company>Vladyslav Prokhorchuk</Company>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="WDLT.Clients.Base" Version="1.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>
